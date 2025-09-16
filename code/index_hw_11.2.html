@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+  <meta charset="UTF-8">
+  <title>Зміна кольору тексту</title>
+  <style>
+      body { font-family: sans-serif; text-align: center; margin-top: 50px; }
+      #colorButton { padding: 10px 20px; font-size: 16px; cursor: pointer; }
+      #textBlock {
+          font-size: 24px;
+          margin-top: 20px;
+          color: black; /* Початковий колір */
+          transition: color 0.3s ease; /* Плавний перехід */
+      }
+      .highlighted { color: #8e13e5; }
+  </style>
+</head>
+<body>
+<div id="textBlock">
+  Цей текст буде змінювати свій колір.
+</div>
+<button id="colorButton">Змінити колір</button>
+<script src="hw_11.2.js"></script>
+</body>
+</html>
