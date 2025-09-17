@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Віджет погоди</title>
+  <style>
+      body {
+          font-family: sans-serif;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          background-color: #f0f0f0;
+      }
+      .weather-widget {
+          background-color: #fff;
+          padding: 20px;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          text-align: center;
+          width: 300px;
+      }
+      .weather-widget h2 {
+          margin-bottom: 10px;
+      }
+      .weather-widget p {
+          font-size: 1.2rem;
+          color: #555;
+      }
+      .weather-widget button {
+          margin-top: 20px;
+          padding: 10px 15px;
+          border: none;
+          background-color: #007bff;
+          color: white;
+          border-radius: 5px;
+          cursor: pointer;
+      }
+  </style>
+</head>
+<body>
+
+<div class="weather-widget">
+  <h2>Погода в <span id="city-name">...</span></h2>
+  <p>Температура: <span id="temperature">...</span>°C</p>
+  <p>Опис: <span id="description">...</span></p>
+  <button id="refresh-btn">Оновити дані</button>
+</div>
+
+<script src="hw_19.1.js"></script>
+</body>
+</html>
