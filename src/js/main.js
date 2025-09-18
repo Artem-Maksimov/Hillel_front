@@ -1,3 +1,7 @@
+import '../scss/main.css';
+$(document).ready(function() {
+});
+
 $(document).ready(function() {
   const $form = $('.js--form');
   const $todoInput = $('.js--form__input');
