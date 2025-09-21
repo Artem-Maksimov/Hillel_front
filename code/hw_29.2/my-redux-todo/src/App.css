@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; /* Задаємо світло-блакитний фон */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 500px;
+  background: #f0f8ff;
+}
+
+.todo-header {
+  text-align: left;
+}
+
+.todo-header h1, .todos-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.todo-form {
+  display: flex;
+  border: 2px solid #333;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.todo-form input {
+  flex-grow: 1;
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.todo-form button {
+  padding: 10px 20px;
+  background: #f0f0f0;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-left: 2px solid #333;
+}
+
+.todo-form button:hover {
+  background: #e0e0e0;
+}
+
+.todos-section {
+  text-align: left;
+}
+
+.todos-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item-display {
+  background-color: #fce8d5; /* Світло-помаранчевий колір */
+  border: 1px solid #e0c2a2;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.footer {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
