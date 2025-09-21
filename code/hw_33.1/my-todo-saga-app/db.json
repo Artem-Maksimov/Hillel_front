@@ -1,0 +1,6 @@
+{
+  "todos": [
+    { "id": 1, "text": "Вивчити React", "completed": false },
+    { "id": 2, "text": "Написати код", "completed": true }
+  ]
+}
