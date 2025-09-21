@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Comic Sans MS', cursive;
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+.emojis-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.emoji-item {
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.emoji-item:hover {
+  transform: scale(1.1);
+}
+
+.emoji {
+  font-size: 3rem;
+  display: block;
+  user-select: none;
+}
+
+.vote-count {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  transition: background-color 0.2s;
+}
+
+.show-btn {
+  background-color: #4CAF50;
+}
+.show-btn:hover {
+  background-color: #45a049;
+}
+
+.clear-btn {
+  background-color: #f44336;
+}
+.clear-btn:hover {
+  background-color: #d32f2f;
+}
+
+.results-section {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.winner-emoji {
+  font-size: 4rem;
+}
+
+.hidden {
+  display: none;
+}
