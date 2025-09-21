@@ -1,7 +1,7 @@
 const API_KEY = '9a889784f02fc991babf1e2d9466f130';
 const CITY_NAME = 'Dnipro';
 // const API_URL = `https://api.openweathermap.org/data/2.5/weather?q=${CITY_NAME}&appid=${API_KEY}&units=metric&lang=ua`;
-const API_URL = `https://api.openweathermap.org/data/2.5/weather?q=Dnipro&appid=$9a889784f02fc991babf1e2d9466f130&units=metric&lang=ua`;
+const API_URL = `https://api.openweathermap.org/data/2.5/weather?q=Dnipro&appid=9a889784f02fc991babf1e2d9466f130&units=metric&lang=ua`;
 
 const cityNameElement = document.getElementById('city-name');
 const tempElement = document.getElementById('temperature');

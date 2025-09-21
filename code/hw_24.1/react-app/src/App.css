@@ -1,0 +1,15 @@
+.wrapper{
+  width: 90%;
+  margin: 10px auto;
+}
+
+.container{
+  max-width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: 2px solid gainsboro;
+}
+
+.badge{
+  margin: 5px;
+}
