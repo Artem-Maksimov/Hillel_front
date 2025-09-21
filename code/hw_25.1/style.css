@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.emojis {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.emoji-item {
+    cursor: pointer;
+    text-align: center;
+}
+
+.emoji {
+    font-size: 3rem;
+    display: block;
+    user-select: none;
+}
+
+.vote-count {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+}
+
+#show-results {
+    background-color: #28a745;
+}
+
+#clear-results {
+    background-color: #dc3545;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+#results.hidden {
+    display: none;
+}
+
+#winner-emoji {
+    font-size: 4rem;
+}
