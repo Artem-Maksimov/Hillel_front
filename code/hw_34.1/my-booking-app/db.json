@@ -1,0 +1,37 @@
+{
+  "destinations": [
+    { "id": 1, "name": "Kyiv" },
+    { "id": 2, "name": "Lviv" },
+    { "id": 3, "name": "Odesa" }
+  ],
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Grand Hotel Kyiv",
+      "destination": "Kyiv",
+      "description": "Розкішний готель у центрі міста.",
+      "imageUrl": "https://images.unsplash.com/photo-1542312686-9a28b030b77a?fit=crop&w=800&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Lviv Plaza",
+      "destination": "Lviv",
+      "description": "Сучасний готель біля Оперного театру.",
+      "imageUrl": "https://images.unsplash.com/photo-1520250497591-112f2f40ddf6?fit=crop&w=800&q=80"
+    },
+    {
+      "id": 3,
+      "name": "Odesa Palace",
+      "destination": "Odesa",
+      "description": "Готель з видом на море.",
+      "imageUrl": "https://images.unsplash.com/photo-1566073771259-d8389ac0a231?fit=crop&w=800&q=80"
+    },
+    {
+      "id": 4,
+      "name": "Lviv Dandy",
+      "destination": "Lviv",
+      "description": "Затишний бутік-готель.",
+      "imageUrl": "https://images.unsplash.com/photo-1568285517173-98b3c8f8d55c?fit=crop&w=800&q=80"
+    }
+  ]
+}
